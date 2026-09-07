@@ -154,4 +154,3 @@ This project demonstrates practical skills in Power BI, Power Query, DAX, data m
 
 Data Analyst | Power BI | SQL | Excel | DAX | Power Query
 
-Data Analyst | Power BI | SQL | Excel | DAX | Power Query
