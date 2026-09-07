@@ -2,20 +2,18 @@
 
 ## Project Overview
 
-Cyber Incident Analytics is an interactive Power BI project designed to analyze global cyber incidents,
- attack patterns, affected entities, receiver information, attribution, and incident impact.
+Cyber Incident Analytics is an interactive Power BI project designed to analyze global cyber incidents, attack patterns, affected entities, receiver information, attribution, and incident impact.
 
-The dashboard helps identify cyber risk trends, high-impact incidents, targeted entities,
- and attribution patterns through interactive visualizations and KPIs.
+The dashboard helps identify cyber risk trends, high-impact incidents, targeted entities, and attribution patterns through interactive visualizations and KPIs.
 
 ## Tools & Technologies
 
-- Power BI
-- Power Query
-- DAX
-- SQL
-- Excel
-- Data Modeling
+* Power BI
+* Power Query
+* DAX
+* SQL
+* Excel
+* Data Modeling
 
 ## Project Structure
 
@@ -28,87 +26,111 @@ Cyber_Incident_Analytics_project
 │   ├── eurepoc_global_dataset_1_3.csv
 │   └── eurepoc_receiver_dataset_1.3.csv
 │
-├── Data_Cleaning
+├── Data_cleaning
 │   └── Power_query_steps.md
 │
-├── Data_Model
+├── Data_model
 │   └── Data_Model.png
 │
 ├── Dax
 │   └── Measure.md
 │
-├── screenshots
-│   ├── Executive Cyber Risk Dashboard.png
+├── Screenshot
+│   ├── Attribution Analytics.png
+│   ├── Country & Sector Risk Dashboard .png
 │   ├── Cyber Attack & Trend Analysis.png
-│   ├── Receiver Analysis.png
-│   └── Attribution Analytics.png
+│   ├── Executive Cyber Risk Dashboard.png
+│   ├── Executive overview.png
+│   ├── Initiator Receiver Threat Intelligence.png
+│   └── Title .png
 │
-└── README.md 
+└── README.md
+```
 
 ## Key KPIs
 
-- Total Incidents
-- Incidents with Parsed Start Date
-- Incidents Having Receiver Data
-- Distinct Receiver Entities
-- Average Impact Score
-- High Impact Incidents
-- Attributed Incidents
-- Attribution %
+* Total Incidents
+* Incidents with Parsed Start Date
+* Incidents Having Receiver Data
+* Distinct Receiver Entities
+* Average Impact Score
+* High Impact Incidents
+* Attributed Incidents
+* Attribution %
 
-## Dashboard Analysis
+## Dashboard Screenshots
 
 ### Executive Cyber Risk Dashboard
 
 Provides an overview of overall cyber incident activity, impact levels, and key risk indicators.
 
-![Executive Cyber Risk Dashboard](screenshots/Executive%20Cyber%20Risk%20Dashboard.png)
+![Executive Cyber Risk Dashboard](Screenshot/Executive%20Cyber%20Risk%20Dashboard.png)
+
+### Executive Overview
+
+Provides a high-level overview of cyber incident activity and major risk indicators.
+
+![Executive Overview](Screenshot/Executive%20overview.png)
 
 ### Cyber Attack & Trend Analysis
 
 Analyzes incident trends, attack patterns, operation types, and changes over time.
 
-![Cyber Attack & Trend Analysis](screenshots/Cyber%20Attack%20%26%20Trend%20Analysis.png)
+![Cyber Attack & Trend Analysis](Screenshot/Cyber%20Attack%20%26%20Trend%20Analysis.png)
+
+### Country & Sector Risk Dashboard
+
+Analyzes cyber risk across countries and affected sectors.
+
+![Country & Sector Risk Dashboard](Screenshot/Country%20%26%20Sector%20Risk%20Dashboard%20.png)
+
+### Initiator Receiver Threat Intelligence
+
+Analyzes relationships between cyber attack initiators and targeted receiver entities.
+
+![Initiator Receiver Threat Intelligence](Screenshot/Initiator%20Receiver%20Threat%20Intelligence.png)
 
 ### Receiver Analysis
 
 Analyzes targeted receiver entities and the distribution of incidents across affected entities.
 
-![Receiver Analysis](screenshots/Receiver%20Analysis.png)
-
 ### Attribution Analytics
 
 Analyzes incident attribution patterns and the availability of attribution information.
 
-![Attribution Analytics](screenshots/Attribution%20Analytics.png)
+![Attribution Analytics](Screenshot/Attribution%20Analytics.png)
 
 ## Data Cleaning & Transformation
 
 Data was cleaned and transformed using Power Query. Key steps included:
 
-- Promoting headers
-- Changing data types
-- Parsing date fields
-- Handling missing values
-- Validating incident IDs
-- Standardizing columns
-- Preparing tables for data modeling
+* Promoting headers
+* Changing data types
+* Parsing date fields
+* Handling missing values
+* Validating incident IDs
+* Standardizing columns
+* Preparing tables for data modeling
 
 Detailed transformation steps are documented in:
 
-`Data_Cleaning/Power_query_steps.md`
+`Data_cleaning/Power_query_steps.md`
 
 ## Data Model
 
-The project uses a relational Power BI data model connecting incident data with receiver, attribution, 
-impact, and other analytical datasets.
+The project uses a relational Power BI data model connecting incident data with receiver, attribution, impact, and other analytical datasets.
 
-![Power BI Data Model](Data_Model/Data_Model.png)
+![Power BI Data Model](Data_model/Data_Model.png)
 
 ## DAX Measures
 
-DAX measures were created to calculate key incident and risk metrics, including Total Incidents, 
-High Impact Incidents, Average Impact Score, Attributed Incidents, and Attribution %.
+DAX measures were created to calculate key incident and risk metrics, including:
+
+* Total Incidents
+* High Impact Incidents
+* Average Impact Score
+* Attributed Incidents
+* Attribution %
 
 Detailed measures are documented in:
 
@@ -116,19 +138,20 @@ Detailed measures are documented in:
 
 ## Business Insights
 
-- Identified trends in global cyber incident activity.
-- Analyzed high-impact cyber incidents.
-- Evaluated targeted receiver entities.
-- Analyzed incident attribution patterns.
-- Used KPIs and interactive filters to support cyber risk analysis.
+* Identified trends in global cyber incident activity.
+* Analyzed high-impact cyber incidents.
+* Evaluated targeted receiver entities.
+* Analyzed incident attribution patterns.
+* Used KPIs and interactive filters to support cyber risk analysis.
 
 ## Project Outcome
 
-This project demonstrates practical skills in Power BI, Power Query, DAX, data modeling, data cleaning, 
-and business-oriented cyber incident analysis.
+This project demonstrates practical skills in Power BI, Power Query, DAX, data modeling, data cleaning, and business-oriented cyber incident analysis.
 
 ## Author
 
 **Sanket V Shingney**
+
+Data Analyst | Power BI | SQL | Excel | DAX | Power Query
 
 Data Analyst | Power BI | SQL | Excel | DAX | Power Query
