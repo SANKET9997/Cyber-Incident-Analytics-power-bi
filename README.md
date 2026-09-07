@@ -1,5 +1,7 @@
 # Cyber Incident Analytics | Power BI
 
+![Cyber Incident Analytics Dashboard](Screenshot/Title%20.png)
+
 ## Project Overview
 
 Cyber Incident Analytics is an interactive Power BI project designed to analyze global cyber incidents, attack patterns, affected entities, receiver information, attribution, and incident impact.
